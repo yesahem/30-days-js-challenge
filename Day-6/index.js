@@ -78,6 +78,7 @@ for (let i = 0; i < arr12.length; i++) {
 // Task 13 
 const arr13 = [[1, 2, 3], [4, 5, 6], ['a', 'b', 'c']]
 console.log(arr13[0][1])  //Accessing element 2
+
 console.log(arr13[2][0])  //Accessing element 'a'
 
 
