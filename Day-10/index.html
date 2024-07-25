@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div>
+      <p id="para">This is a Paragraph</p>
+      <button id="btnClick" onclick="onClickHandler()">click me</button>
+    </div>
+    <div>
+      <img
+        src="https://plus.unsplash.com/premium_photo-1676637000058-96549206fe71?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        id="img"
+        style="cursor: pointer"
+        ondblclick="onDoubleClickHandler()"
+      />
+    </div>
+    <div
+      style="padding: 20px 500px"
+      id="changeBg"
+      onmouseover="mouseHoverHandler()"
+      onmouseout="mouseOutHandler()"
+    >
+      Hover here to change its bg Color
+    </div>
+    <p>
+      write anything in the input area given just below and see live changing to
+      the top paragraph
+    </p>
+    <input type="text" id="inputField" />
+    <form id="form">
+      i am a form tag (input anything in the below input box and you will get
+      the result on the console)
+      <br />
+      <input type="text" id="formInput" />
+      <br />
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+    <span
+      ><p id="para2">
+        Below is the select tag and this will change as the option is selected
+      </p></span
+    >
+    <select id="mySelect">
+      <option
+        value="Below is the select tag and this will change as the option is selected"
+      >
+        Please Select a option
+      </option>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+    </select>
+    <p>This is a list <br /></p>
+    <ul id="list">
+      <button>Click here to get the text of the list items</button>
+      <li>li1</li>
+      <li>li2</li>
+      <li>li3</li>
+    </ul>
+    <div id="parent">
+      <button id="addchild">Add child</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
